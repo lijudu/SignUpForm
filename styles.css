@@ -1,18 +1,65 @@
-.image {
-    background-color: yellow;
-    height: 100vh;
-    width: 30vw;
-    min-width: 200px;
+body {
+    margin: 0px;
+}
+
+.cat {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.imageContainer {
+    flex: 40%;
+    display: inline-block;
+    position: relative;
+}
+
+.imageCredit {
+    position: absolute;
+    bottom: 0.5%;
+    left: 35%;
+    color: white; 
+}
+
+.logoTitle {
+    position: absolute; 
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin {
+    width: 20%;
+    position: relative;
+}
+
+.mainTitle {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+}
+
+#links {
+    color: white;
 }
 
 .form {
     background-color: pink;
-    height: 100vh; 
-    width: 70vw;
+    flex: 60%;
+    /* height: 100; */
 }
 
 .main {
     display: flex;
+    flex-direction: row;
 }
 
-/* resize for mobile support!!!! */
+@media (max-width: 786px) {
+    .main {
+        flex-direction: column;
+    };
+};
+

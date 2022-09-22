@@ -1,0 +1,18 @@
+.image {
+    background-color: yellow;
+    height: 100vh;
+    width: 30vw;
+    min-width: 200px;
+}
+
+.form {
+    background-color: pink;
+    height: 100vh; 
+    width: 70vw;
+}
+
+.main {
+    display: flex;
+}
+
+/* resize for mobile support!!!! */

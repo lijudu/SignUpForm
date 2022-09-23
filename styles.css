@@ -37,7 +37,7 @@ html, body {
 }
 
 .odin {
-    width: 20%;
+    width: 100px;;
     position: relative;
 }
 
@@ -69,5 +69,14 @@ html, body {
     .main {
         flex-direction: column;
     };
+    .cat {
+        
+    }
+    .imageContainer {
+        
+    };
+    .form {
+        flex: 80%;
+    }
 };
 

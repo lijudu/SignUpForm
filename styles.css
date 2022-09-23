@@ -23,6 +23,7 @@ html, body {
     left: 30%;
     right: 30%;
     text-align: center;
+    font-size: 12px;
 }
 
 .logoTitle {
@@ -54,7 +55,7 @@ html, body {
 }
 
 .form {
-    background-color: pink;
+    background-color: #ecf1f2;
     flex: 60%;
 
 }
@@ -67,6 +68,7 @@ html, body {
 
 .middle {
     background-color: white;
+    top: 40%
 }
 
 .allForms{
@@ -75,19 +77,38 @@ html, body {
     justify-items: left;
 }
 
+.header, .middle, .bottom {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bottom, .middle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.statement {
+    margin-top: 0;
+}
+
+
 @media (max-width: 786px) {
     .main {
         flex-direction: column;
     };
     .cat {
-        
+        /* height: 180px; */
     }
     .imageContainer {
-
+        height: 180px;
     };
     .form {
-        flex: 80%;
+    }
+    .logoTitle{
+        position: absolute;
+        top: 0%
     }
 };
+
 
 

@@ -68,13 +68,13 @@ html, body {
 
 .middle {
     background-color: white;
-    top: 40%
 }
 
 .allForms{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-items: left;
+    
 }
 
 .header, .middle, .bottom {
@@ -91,6 +91,18 @@ html, body {
     margin-top: 0;
 }
 
+#createBTN {
+    background-color: #aaafad; 
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
+    color: white;
+    padding: 15px 30px;
+}
+
+#createBTN:hover {
+    background-color: #858782;
+}
 
 @media (max-width: 786px) {
     .main {

@@ -68,14 +68,23 @@ html, body {
     height: 100%;
 }
 
+.header {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
 .middle {
     background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .allForms{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-items: left;
+    gap: 20px;
     
 }
 
@@ -84,8 +93,8 @@ html, body {
     padding-right: 30px;
 }
 
-.bottom, .middle {
-    padding-top: 20px;
+.bottom {
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -106,6 +115,10 @@ html, body {
 
 #createBTN:hover {
     background-color: #858782;
+}
+
+#haveAccount {
+    padding-top: 10px;
 }
 
 @media (max-width: 786px) {

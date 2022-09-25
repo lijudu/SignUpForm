@@ -78,6 +78,7 @@ html, body {
     background-color: white;
     padding-top: 40px;
     padding-bottom: 40px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }
 
 .allForms{
@@ -100,6 +101,10 @@ html, body {
 
 .statement {
     margin-top: 0;
+}
+
+.logLink {
+    color: black;
 }
 
 input {

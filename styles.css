@@ -102,6 +102,19 @@ html, body {
     margin-top: 0;
 }
 
+input {
+    border: 1px solid #aaafad;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #2082C5; 
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
 #createBTN {
     background-color: #aaafad; 
     border: none;
@@ -141,3 +154,14 @@ html, body {
 
 
 
+
+/* 
+1) create red border when selected, box shadow as well 
+2) valid email notice
+3) 10 digit number notice
+4) password 1 capital, 1 number, at leat 8 char
+5) password must match 
+6) create account button 
+7) resize for mobile
+
+**why doesnt bold work?*/

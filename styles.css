@@ -1,9 +1,11 @@
+
 html, body {
     margin: 0;
     height: 100%;
     font-family: "DM Sans", "Arial", "Helvetica";
     text-transform: uppercase;
 }
+
 
 .cat {
     width: 100%;
@@ -86,9 +88,8 @@ html, body {
     padding-right: 30px;
 }
 
-.bottom {
-    padding-top: 40px;
-    padding-bottom: 20px;
+.bottom {   
+    background-color: #ecf1f2;
 }
 
 .statement {
@@ -105,7 +106,6 @@ html, body {
     flex-wrap: wrap; 
     /* width: 70%; */
     gap: 30px;
-    padding-bottom: 35px;
 }
 
 input {
@@ -153,19 +153,18 @@ input:focus {
         /* height: 180px; */
     }
     .imageContainer {
-        height: 180px;
+        height: 180px
     };
-    .logoTitle{
-        position: absolute;
-        top: 0%
-    }
+
     .middle {
-        text-align: center;
+
     }
     .bottom {
         display: grid;
         justify-content: center;
-
+    }
+    .logoTitle {
+        top: 0;
     }
 };
 

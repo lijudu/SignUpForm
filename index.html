@@ -31,7 +31,7 @@
                         <form id="spaceForms" action="" method="post">
                             <div>
                                 <label for="first-name">First Name</label>
-                                <input type="text" id="first_name" name="first_name" required pattern="[A-Za-z]">
+                                <input type="text" id="first_name" name="first_name" required>
                             </div>
                             <div>
                                 <label for="last-name">Last Name</label>
@@ -53,10 +53,11 @@
                                 <label for="confirm_pswd">Confirm Password</label>
                                 <input type="password" id="confirm_pswd" name="confirm_pswd" required>
                             </div>
+                            
+                            <button type="submit" id="createBTN">Create Account</button>
                         </form>
                 </div>
                 <div class="bottom">
-                    <button id="createBTN">Create Account</button>
                     <p id="haveAccount">Already have an account? <a href="" class="logLink">Log In</a></p>
                 </div>
             </div>

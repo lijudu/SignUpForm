@@ -10,5 +10,5 @@
 6) inputs to have light border ✅
 7) password inputs to have "error" class by default 
 8) input to have blue border and box-shadow, use :focus pseudo-class ✅
-9) look good on different desktop resolutions 
+9) look good on different desktop resolutions ✅
 10) password field match each other = JS 

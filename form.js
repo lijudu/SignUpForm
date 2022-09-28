@@ -7,5 +7,3 @@ const confirmPswd = document.getElementById("confirm_pswd");
 
 const form = document.getElementById("spaceForms")
 const createBTN = document.getElementById("createBTN");
-
-
